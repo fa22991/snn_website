@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    overflow-x:hidden;
+}
+#landing{
+    background:#0F66AD;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+#wave{
+    position:relative;
+    top:420px;
+}
+#wave-bottom{
+    position:relative;
+}
+#blog{
+    background:yellow;
+    width:100vw;
+    height:100vh;
+}
+@media (max-width:830px){
+    #wave,#wave-bottom{
+        scale: 2;
+    }
+}
+@media (max-width:500px){
+    #wave,#wave-bottom{
+        scale: 2;
+    }
+    #wave{
+        top:450px;
+    }
+}
